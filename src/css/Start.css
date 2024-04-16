@@ -1,0 +1,20 @@
+
+
+p { color: #ffffff; }
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  padding: 0.55rem 0.71rem;
+  margin: 0.475rem 0;
+  font-size: calc(10px + 2vmin);
+  background-color: #314054;
+  color: #ffffff;
+  border: #314054;
+  border-radius: 3px;
+}
+

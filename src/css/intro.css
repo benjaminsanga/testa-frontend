@@ -1,0 +1,31 @@
+.intro-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 0 5.25rem;
+}
+
+.text {
+    font-size: large;
+    padding:0.54rem;
+}
+
+.start-btn {
+    width: 50%;
+}
+
+i {
+    font-size: .85rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .App {
+        padding: 0 1.25rem;
+    }
+
+    .intro-div {
+        padding: 0;
+    }
+}
